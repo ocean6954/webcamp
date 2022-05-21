@@ -20,4 +20,8 @@ if (rand == 4) {
   userresult = "凶";
 }
 
+if(username == "") {
+  document.getElementById("name").innerHTML = "名無し"
+}
+
 document.getElementById("result").innerHTML = userresult;
